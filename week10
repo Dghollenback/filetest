@@ -1,0 +1,14 @@
+with open('derp.rtf') as file_object:
+	contents=file_object.read()
+print(contents)
+def hello():
+    name=str(input("enter the name : "))
+    print("hello " + str(name))
+    return
+hello()
+username = input('What is your phone number?')
+def hello():
+    name=str(input("enter the number : "))
+    print("hello " + str(name))
+    return
+hello()
